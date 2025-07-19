@@ -58,14 +58,14 @@ Use the Restart button to play another round.
 Use the Reset Game button to clear names, scores, and start fresh.
 
 🧩 Project Structure
-📁 Tic-Tac-Toe
-├── 📄 App.js            # Main game logic and UI
-├── 📄 App.css           # Styling for the game and layout
-├── 📄 index.js          # React entry point
-├── 📄 README.md         # Project info and instructions
-└── 📁 public
-    └── 📄 index.html    # HTML template
-    
+    📁 Tic-Tac-Toe
+    ├── 📄 App.js            # Main game logic and UI
+    ├── 📄 App.css           # Styling for the game and layout
+    ├── 📄 index.js          # React entry point
+    ├── 📄 README.md         # Project info and instructions
+    └── 📁 public
+        └── 📄 index.html    # HTML template
+        
 🛠️ Built With
 ⚛️ React
 
