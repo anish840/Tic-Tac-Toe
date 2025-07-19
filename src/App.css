@@ -1,0 +1,99 @@
+/* App.css */
+.game::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* dark transparent overlay */
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.game > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.status {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 5px;
+  border: 4px solid;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image: linear-gradient(45deg, #ff6ec4, #7873f5, #4ADEDE, #C2FFD8) 1;
+}
+
+.square:hover {
+  transform: scale(1.05);
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square.X {
+  color: #007bff; /* Blue */
+}
+
+.square.O {
+  color: #ff4d4d; /* Red */
+}
+
+/* Setup screen */
+.setup input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.setup button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Scores */
+.scores {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
