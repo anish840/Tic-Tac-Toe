@@ -38,8 +38,7 @@ A modern, stylish Tic Tac Toe game built with **React**, supporting both **2-pla
      npm start
 4. **Open your browser and visit:**
       ```bash
-    http://localhost:3000
-      
+    http://localhost:300      
 
 🕹️ Gameplay Instructions
 Enter names for Player X and Player O.
@@ -73,3 +72,18 @@ Use the Reset Game button to clear names, scores, and start fresh.
 🎨 CSS3 (custom gradient borders, hover animations)
 
 🧠 Simple JavaScript AI logic
+
+📜 License
+This project is open source and free to use under the MIT License.
+
+👨‍💻 Author
+Anish Kumar
+📧 myselfanish840@gmail.com
+🔗 GitHub - @anish840
+
+Enjoy the game and feel free to contribute!
+
+---
+
+Let me know if you'd like a **version with badges**, a **dark mode switch**, or deployment setup (e.g., for GitHub Pages or Netlify).
+
