@@ -31,12 +31,15 @@ A modern, stylish Tic Tac Toe game built with **React**, supporting both **2-pla
    git clone https://github.com/anish840/Tic-Tac-Toe.git
    cd Tic-Tac-Toe
 2. **Install dependencies:**
-  '''bash
+   ```bash
     npm install
 3. **Start the development server:**
+      ```bash
      npm start
 4. **Open your browser and visit:**
+      ```bash
     http://localhost:3000
+      
 
 🕹️ Gameplay Instructions
 Enter names for Player X and Player O.
